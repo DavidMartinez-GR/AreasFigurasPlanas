@@ -1,0 +1,332 @@
+body{
+    background-image:url("Imagenes/fondo1.jpg");
+    background-size: auto 20%;
+    font-family: arial;
+}
+
+body input[type="button"]{
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+    background-color: #4f4c4c;
+    border-radius: 8px;
+}
+
+.encabezado{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+    font-size: large;
+}
+
+.containerIndice{
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    margin: 5px;
+    
+}
+
+a:hover{
+    cursor: pointer;
+    color: #689ca2;
+}
+
+div {
+    text-align: center;
+}
+
+.containerRectangulo{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+    
+}
+    .containerRectangulo2{
+        margin: auto;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        background-color: gray;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+    }
+        #contenedor1{
+            border: 1px solid;
+            background-color: beige;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-color: black;
+            border-radius: 8px;
+        }
+
+.containerTriangulo{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+}
+    .containerTriangulo2{
+        margin: auto;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        background-color: gray;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+}
+        #contenedor2{
+            border: 1px solid;
+            background-color: beige;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-color: black;
+            border-radius: 8px;
+    }
+
+.containerRombo{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+}
+    .containerRombo2{
+        margin: auto;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        background-color: gray;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+}
+        #contenedor3{
+            border: 1px solid;
+            background-color: beige;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-color: black;
+            border-radius: 8px;
+    }
+
+.containerCuadrado{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+}
+    .containerCuadrado2{
+        margin: auto;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        background-color: gray;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+}
+        #contenedor4{
+            border: 1px solid;
+            background-color: beige;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-color: black;
+            border-radius: 8px;
+    }
+
+.containerParalelogramo{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+}
+    .containerParalelogramo2{
+        margin: auto;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        background-color: gray;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+}
+        #contenedor5{
+            border: 1px solid;
+            background-color: beige;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-color: black;
+            border-radius: 8px;
+    }
+
+.containerTrapecio{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+}
+    .containerTrapecio2{
+        margin: auto;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        background-color: gray;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+}
+        #contenedor6{
+            border: 1px solid;
+            background-color: beige;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-color: black;
+            border-radius: 8px;
+    }
+
+.containerRomboide{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+}
+    .containerRomboide2{
+        margin: auto;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        background-color: gray;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+}
+        #contenedor7{
+            border: 1px solid;
+            background-color: beige;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-color: black;
+            border-radius: 8px;
+    }
+.containerPoligono{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+}
+    .containerPoligono2{
+        margin: auto;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        background-color: gray;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+}
+        #contenedor8{
+            border: 1px solid;
+            background-color: beige;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-color: black;
+            border-radius: 8px;
+    }
+.containerCirculo{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: beige;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+}
+    .containerCirculo2{
+        margin: auto;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        background-color: gray;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+}
+        #contenedor9{
+            border: 1px solid;
+            background-color: beige;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-color: black;
+            border-radius: 8px;
+    }

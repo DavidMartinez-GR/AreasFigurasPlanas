@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1-Áreas figuras planas.</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <script type="text/javascript">
+            function rectangulo (){
+                var rectangulo1=parseFloat(document.getElementById('caja1').value);
+                var rectangulo2=parseFloat(document.getElementById('caja2').value);
+                var resultadorectangulo= rectangulo1 * rectangulo2;
+                document.getElementById('contenedor1').innerHTML=resultadorectangulo;
+            }
+
+            function triangulo (){
+                var triangulo1=parseFloat(document.getElementById('caja3').value);
+                var triangulo2=parseFloat(document.getElementById('caja4').value);
+                var resultadotriangulo= (triangulo1 * triangulo2)/2;
+                document.getElementById('contenedor2').innerHTML=resultadotriangulo;
+            }
+
+            function rombo (){
+                var rombo1=parseFloat(document.getElementById('caja5').value);
+                var rombo2=parseFloat(document.getElementById('caja6').value);
+                var resultadorombo= (rombo1 * rombo2)/2;
+                document.getElementById('contenedor3').innerHTML=resultadorombo;
+            }
+
+            function cuadrado (){
+                var cuadrado1=parseFloat(document.getElementById('caja7').value);
+                var resultadocuadrado= cuadrado1 * cuadrado1;
+                document.getElementById('contenedor4').innerHTML=resultadocuadrado;
+            }
+
+            function paralelogramo (){
+                var paralelogramo1=parseFloat(document.getElementById('caja8').value);
+                var paralelogramo2=parseFloat(document.getElementById('caja9').value);
+                var resultadoparalelogramo= paralelogramo1 * paralelogramo2;
+                document.getElementById('contenedor5').innerHTML=resultadoparalelogramo;
+            }
+
+            function trapecio (){
+                var trapecio1=parseFloat(document.getElementById('caja10').value);
+                var trapecio2=parseFloat(document.getElementById('caja11').value);
+                var trapecio3=parseFloat(document.getElementById('caja12').value);
+                var resultadotrapecio= ((trapecio1+trapecio2)/2)*trapecio3;
+                document.getElementById('contenedor6').innerHTML=resultadotrapecio;
+            }
+
+            function romboide (){
+                var romboide1=parseFloat(document.getElementById('caja13').value);
+                var romboide2=parseFloat(document.getElementById('caja14').value);
+                var resultadoromboide= (romboide1 * romboide2)/2;
+                document.getElementById('contenedor7').innerHTML=resultadoromboide;
+            }
+
+            function poligono (){
+                var poligono1=parseFloat(document.getElementById('caja15').value);
+                var poligono2=parseFloat(document.getElementById('caja16').value);
+                var resultadopoligono= (poligono1 * poligono2)/2;
+                document.getElementById('contenedor8').innerHTML=resultadopoligono;
+            }
+
+            function circulo (){
+                var circulo1=parseFloat(document.getElementById('caja17').value);
+                var resultadocirculo= (circulo1 * circulo1) *Math.PI;
+                document.getElementById('contenedor9').innerHTML=resultadocirculo;
+            }
+                
+                
+                
+            
+    </script>
+</head>
+<body>
+
+    <div class="encabezado">
+        <a name="inicio"></a>
+        <h1>ÁREAS DE FIGURAS PLANAS</h1>
+    </div>
+
+    <div class="containerIndice">
+        <a href="#inicio">Inicio</a>
+        <a href="#rectangulo">Rectángulo</a>
+        <a href="#triangulo">Triángulo</a>
+        <a href="#rombo">Rombo</a>
+        <a href="#cuadrado">Cuadrado</a>
+        <a href="#paralelogramo">Paralelogramo</a>
+        <a href="#trapecio">Trapecio</a>
+        <a href="#romboide">Romboide</a>
+        <a href="#poligono regular">Polígono regular</a>
+        <a href="#circulo">Círculo</a>
+    </div>
+
+
+
+    <a name="rectangulo"></a>
+    <div class="containerRectangulo">
+        <h2><u>Área del rectángulo</u></h2>
+            Para calcular el área de un rectángulo multiplicamos la base por la altura.
+        <div class="containerRectangulo2">
+        <p>
+            <input type="text" id="caja1" value="Valor de la base"> 
+            <input type="text" id="caja2" value="Valor de la altura">
+            <input type="button" value="Calcula" onclick="rectangulo();">
+            <div id="contenedor1">Resultado</div>
+        </p>
+        <img src="Imagenes/rectangulo.png"><br><br>
+        </div>
+
+        <a href="#inicio"><b>Volver</b></a><br><br><br>
+    </div>
+
+
+
+<a name="triangulo"></a>
+<div class="containerTriangulo">
+    <h2><u>Área del triángulo</u></h2>
+            Para calcular el área de un triángulo multiplicamos la base por la altura y dividimos el resultado entre 2.
+        <div class="containerTriangulo2">
+        <p>
+            <input type="text" id="caja3" value="Valor de la base"> 
+            <input type="text" id="caja4" value="Valor de la altura">
+            <input type="button" value="Calcula" onclick="triangulo();">
+            <div id="contenedor2">Resultado</div>
+        </p>
+        <img src="Imagenes/triangulo.png"><br><br>
+        </div>
+
+    <a href="#inicio"><b>Volver</b></a><br><br><br>
+</div>
+
+
+
+<a name="rombo"></a>
+<div class="containerRombo">
+    <h2><u>Área del rombo</u></h2>
+            Para calcular el área de un rombo multiplicamos la diagonal mayor por la menor y dividimos el resultado entre 2.
+        <div class="containerRombo2">
+        <p>
+            <input type="text" id="caja5" value="Valor de la diagonal mayor"> 
+            <input type="text" id="caja6" value="Valor de la diagonal menor">
+            <input type="button" value="Calcula" onclick="rombo();">
+            <div id="contenedor3">Resultado</div>
+        </p>
+        <img src="Imagenes/rombo.png"><br><br>
+        </div>
+
+    <a href="#inicio"><b>Volver</b></a><br><br><br>
+</div>
+
+
+
+<a name="cuadrado"></a>
+<div class="containerCuadrado">
+    <h2><u>Área del cuadrado</u></h2>
+            Para calcular el área de un cuadrado es multiplicar su lado por si mismo.
+        <div class="containerCuadrado2">
+        <p>
+            <input type="text" id="caja7" value="Valor del lado">
+            <input type="button" value="Calcula" onclick="cuadrado();">
+            <div id="contenedor4">Resultado</div>
+        </p>
+        <img src="Imagenes/cuadrado.png"><br><br>
+        </div>
+
+    <a href="#inicio"><b>Volver</b></a><br><br><br>
+</div>
+
+
+
+<a name="paralelogramo"></a>
+<div class="containerParalelogramo">
+    <h2><u>Área del paralelogramo</u></h2>
+            Para calcular el área de un paralelogramo es multiplicar la base por la altura.
+        <div class="containerParalelogramo2">
+        <p>
+            <input type="text" id="caja8" value="Valor de la base"> 
+            <input type="text" id="caja9" value="Valor de la altura">
+            <input type="button" value="Calcula" onclick="paralelogramo();">
+            <div id="contenedor5">Resultado</div>
+        </p>
+        <img src="Imagenes/paralelogramo.jpg"><br><br>
+        </div>
+
+    <a href="#inicio"><b>Volver</b></a><br><br><br>
+</div>
+
+
+
+<a name="trapecio"></a>
+<div class="containerTrapecio">
+    <h2><u>Área del trapecio</u></h2>
+            Para calcular el área de un trapecio sumamos la base mayor a la menor, lo dividimos entre 2 y el resultado por altura.
+        <div class="containerTrapecio2">
+        <p>
+            <input type="text" id="caja10" value="Valor de la base mayor"> 
+            <input type="text" id="caja11" value="Valor de la base menor"> 
+            <input type="text" id="caja12" value="Valor de la altura">
+            <input type="button" value="Calcula" onclick="trapecio();">
+            <div id="contenedor6">Resultado</div>
+        </p>
+        <img src="Imagenes/trapecio.png"><br><br>
+        </div>
+
+    <a href="#inicio"><b>Volver</b></a><br><br><br>
+</div>
+
+
+    
+<a name="romboide"></a>
+<div class="containerRomboide">
+    <h2><u>Área del romboide</u></h2>
+            Para calcular el área de un romboide multiplicamos diagonal mayor por la menor, y dividimos entre 2.
+        <div class="containerRomboide2">
+        <p>
+            <input type="text" id="caja13" value="Valor de la diagonal mayor"> 
+            <input type="text" id="caja14" value="Valor de la diagonal menor">
+            <input type="button" value="Calcula" onclick="romboide();">
+            <div id="contenedor7">Resultado</div>
+        </p>
+        <img src="Imagenes/romboide.png"><br><br>
+        </div>
+
+    <a href="#inicio"><b>Volver</b></a><br><br><br>
+</div>
+
+
+
+<a name="poligono regular"></a>
+<div class="containerPoligono">
+    <h2><u>Área del polígono regular</u></h2>
+            Para calcular el área de un polígono regular multiplicamos el perímetro por la apotema, y lo dividimos entre 2.
+        <div class="containerPoligono2">
+        <p>
+            <input type="text" id="caja15" value="Valor del perímetro"> 
+            <input type="text" id="caja16" value="Valor de la apotema">
+            <input type="button" value="Calcula" onclick="poligono();">
+            <div id="contenedor8">Resultado</div>
+        </p>
+        <img src="Imagenes/poligono.png"><br><br>
+        </div>
+
+    <a href="#inicio"><b>Volver</b></a><br><br><br>
+</div>
+
+
+
+<a name="circulo"></a>
+<div class="containerCirculo">
+    <h2><u>Área del círculo</u></h2>
+            Para calcular el área del círculo multiplicamos el radio por si mismo y por π (número pi).
+        <div class="containerCirculo2">
+        <p>
+            <input type="text" id="caja17" value="Valor del radio">
+            <input type="button" value="Calcula" onclick="circulo();">
+            <div id="contenedor9">Resultado</div>
+        </p>
+        <img src="Imagenes/circulo.png"><br><br>
+        </div>
+
+    <a href="#inicio"><b>Volver</b></a><br><br><br>
+</div>
+
+
+
+</body>
+</html>
